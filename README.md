@@ -17,17 +17,25 @@ Use:
 	--Run prepareCAM.sh to create prepareCAM.cam. This file merely has paths set to put gerbers in the folder with panelize.py
 	--for using other software, create these files:
 		n.oln (outline)
+
 		n.txt (drills)
+
 		n.gbs (mask, bottom)
+
 		n.gts (mask, top)
+
 		b.gbo (silk, bottom)
+
 		n.gto (silk, top)
+
 		n.gbl (copper, bottom)
+
 		b.gtl (copper, top)
+		
 		Currently panelize gerbers only supposed 2 layers, with this specific naming
 --Run panelize.py. The command line prompt will lead you through the rest.
 --Outputted gerbers are in the output folder.
 
 
-This project depends on 
+ 
 (c) Alexander Dewing (sephamorr) 2013. Released under GPL. Please keep this copyright notice.
